@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM python:3-slim-stretch
 ENV DISPLAY=:1
 ARG VNC_PASSWORD=secret
 ENV VNC_PASSWORD ${VNC_PASSWORD}
